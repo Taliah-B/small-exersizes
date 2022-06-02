@@ -1,0 +1,30 @@
+/*
+filename: style.css
+author: Taliah Brooker
+created: 20/03/2022
+description: For lab 05
+*/
+body {
+    background-color: rgb(27, 180, 101);
+}
+h1, p, button {
+    font-family: "Lucida Console", Courier, monospace;
+    text-align: center;
+}
+h1 {
+    margin-top: 10%;
+}
+button {
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: auto;
+    display: block;
+}
+button:hover {
+    background-color: rgb(33, 157, 93);
+    transform: scale(1.05);
+}
+button:active {
+    transform: scale(0.995);
+}
